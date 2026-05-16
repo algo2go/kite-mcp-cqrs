@@ -20,14 +20,14 @@ go 1.25.0
 // commit a5e7e76): moderate-fan-in packages extracted in a single
 // dispatch. This is 17/24 (commit 1 of 4 in this dispatch).
 require (
-	github.com/algo2go/kite-mcp-broker v0.1.0 // indirect
-	github.com/algo2go/kite-mcp-isttz v0.1.0 // indirect
-	github.com/algo2go/kite-mcp-logger v0.1.0
-	github.com/algo2go/kite-mcp-money v0.1.0 // indirect
+	github.com/algo2go/kite-mcp-broker v0.1.2 // indirect
+	github.com/algo2go/kite-mcp-isttz v0.1.1 // indirect
+	github.com/algo2go/kite-mcp-logger v0.1.1
+	github.com/algo2go/kite-mcp-money v0.1.1 // indirect
 	github.com/stretchr/testify v1.10.0
 )
 
-require github.com/algo2go/kite-mcp-domain v0.1.0
+require github.com/algo2go/kite-mcp-domain v0.1.2
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
